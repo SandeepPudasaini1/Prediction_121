@@ -308,4 +308,4 @@ if prediction[0] == 0 :
 elif prediction[0] == 1 :
           st.success( 'Congratulations!! you will get the loan from Bank' )
           st.markdown( f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-          unsafe_allow_html=True,
+          unsafe_allow_html=True, )
